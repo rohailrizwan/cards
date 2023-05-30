@@ -1,0 +1,147 @@
+.bg_color {
+    background-color: #f5f7f9;
+    ;
+}
+
+.border_rounded {
+    border-radius: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.img-fluid{
+    width: 100% !important;
+}
+.product_name {
+    font-size: 18px;
+    font-weight: 700 !important;
+    padding-left: 35px;
+    margin-top: 15px;
+}
+
+.product_name:hover {
+    color: #ee4730;
+}
+
+.id,
+.item_id {
+    padding-left: 20px !important;
+    font-weight: 700 !important;
+}
+
+.id_num,
+.item_no {
+    color: gray;
+    font-size: 15px;
+}
+
+.auction::after {
+    content: '';
+    position: absolute;
+    height: 25px;
+    width: 1px;
+    background-color: gray;
+    left: 202px;
+    bottom: 21px
+}
+
+/* .item{
+    padding-left: 30px !important;
+} */
+.id_sec {
+    padding-right: 20px;
+    padding-left: 1rem;
+}
+
+.dollar {
+    font-size: 26px;
+    color: green;
+}
+
+.dollar_price {
+    font-weight: 700 !important;
+    font-size: 18px !important;
+}
+
+.title {
+    border-top: 1px dotted gray;
+    border-bottom: 1px dotted gray;
+    margin-left: 30px;
+}
+
+.bid_sec {
+    padding-right: 43px;
+}
+
+.bid_sec::after {
+    content: '';
+    position: absolute;
+    height: 32px;
+    width: 1px;
+    background-color: gray;
+    left: 173px;
+    bottom: 28px;
+}
+.total_bids{
+    padding-right: 40px !important;
+}
+.total_bids::after {
+    content: '';
+    position: absolute;
+    height: 32px;
+    width: 1px;
+    background-color: gray;
+    left: 203px;
+    bottom: 0px;
+}
+.total_bids h6{
+    font-size: 16px !important;
+}
+.f_size{
+    font-size: 16px !important;
+}
+.bidding_end{
+    color: #3f22b3;
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+}
+.countdown{
+    text-shadow: 0px 5px 3px rgba(245, 49, 127, 0.2);
+background: -webkit-linear-gradient(#ff7c6e, #f5317f);
+  background-clip: border-box;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.auction_biding{
+
+    border-radius: 10px;
+    background-color: rgba(214, 213, 243, 0.302);
+    padding: 30px 15px;
+    text-align: center;
+}
+.Increment{
+    font-size: 15px !important;
+    color: #807474;
+}
+.dollar3{
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: bold;
+}
+.custom_btn{
+    color: #ffffff;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+font-weight: 500;
+text-transform: uppercase;
+padding: 15px 25px;
+background: -webkit-linear-gradient(90deg, #3da9f5 0%, #683df5 100%);
+box-shadow: -1.04px 4.891px 20px 0px rgba(69, 49, 183, 0.5);
+font-family: "Roboto", sans-serif;
+text-decoration: none;
+font-size: 18px;
+}
+.custom_btn:hover{
+    color: white;
+}
